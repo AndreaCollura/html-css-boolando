@@ -14,6 +14,7 @@
 --red-sale: #FF0000;
 --green-sale: #008000;
 --white-bg: #FFFFFF;
+--white-text: #FFFFFF;
 
 
 }
@@ -24,4 +25,76 @@
 
 body{
     background-color: var(--white-bg);
+}
+
+
+header{
+    background-color: var(--orange-header);
+}
+
+/* .header-bg{
+    background-color: var(--orange-header);
+} */
+
+/* FLEX */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.justcon-start{
+    justify-content: flex-start;
+}
+
+.justcon-end{
+    justify-content: flex-end;
+}
+.aligcon-center{
+    align-items: center;
+}
+.justcon-spacebtw{
+    justify-content: space-between;
+}
+
+
+
+
+/* CONTAINER */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+
+.p-fixed{
+    position: fixed;
+}
+
+.padding-header{
+    padding: 20px 0 20px 0;
+}
+
+.logo-head{
+    max-width: 120px;
+    padding: px;
+    
+}
+
+
+/* TEXT */
+
+
+ul{
+   list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 5px 15px 0 ;
+}
+
+nav a{
+    color: var(--white-text);
 }
