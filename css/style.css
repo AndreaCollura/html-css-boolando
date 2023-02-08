@@ -35,7 +35,7 @@ header{
 .footer-bg{
     background: var(--black-footer);
     color: var(--white-text);
-    
+
 
 }
 
@@ -72,7 +72,7 @@ header{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-   
+
 }
 
 .p-fixed{
@@ -94,13 +94,11 @@ header{
 .logo-head{
     max-width: 120px;
     padding: 5px;
-    
+
 }
 
 .card{
     max-width: 390px;
-    
-   
 }
 
 .card-img{
@@ -108,13 +106,21 @@ header{
     position: relative;
 }
 
+/* .card-img:hover .alt-img{
+    background-image: url(../img/);
+} */
+
+
+
+
+
 .card-text{
     max-width: 400px;
 }
 
-.shadow{
+/* .shadow{
 
-}
+} */
 
 
 
@@ -183,20 +189,17 @@ main p{
     top:3px;
     right: 5px;
     background-color: var(--white-text);
-    color: red;
+    color: var(--black-footer);
 
 }
 
-.footer-bg a{
+
+.footer-bg a, .social p{
     color: var(--white-text);
     font-size: .8rem;
     padding-right: 5px;
 }
 
-.social p{
-    font-size: .7rem;
-    padding-bottom: 5px;
-}
 
 
 
@@ -205,4 +208,32 @@ main p{
 article img{
     width: 100%;
 }
+
+.img{
+    z-index: 7;
+
+    
+   
+
+
+}
+
+.img-alt{
+    position: absolute;
+    display: none;
+    
+    
+
+
+}
+
+
+.card-img:hover .img-alt{
+
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+
 
