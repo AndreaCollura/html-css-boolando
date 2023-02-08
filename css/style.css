@@ -1,0 +1,27 @@
+
+/* GENERALE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Color styles */
+--orange-header: #FF6900;
+--black-footer: #1A1A1A;
+--red-sale: #FF0000;
+--green-sale: #008000;
+--white-bg: #FFFFFF;
+
+
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    background-color: var(--white-bg);
+}
