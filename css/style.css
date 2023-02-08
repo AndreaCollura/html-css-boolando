@@ -32,6 +32,11 @@ header{
     background-color: var(--orange-header);
 }
 
+.footer-bg{
+    background: var(--black-footer);
+
+}
+
 /* .header-bg{
     background-color: var(--orange-header);
 } */
@@ -82,6 +87,21 @@ header{
     
 }
 
+.card{
+    max-width: 350px;
+    padding: px;
+   
+}
+
+.card-img{
+    max-width: 100%;
+}
+
+.card-text{
+    max-width: 400px;
+}
+
+
 
 /* TEXT */
 
@@ -97,4 +117,8 @@ a{
 
 nav a{
     color: var(--white-text);
+}
+
+article img{
+    width: 100%;
 }
